@@ -39,3 +39,14 @@ void add(stack_t **stack, unsigned int line_number)
 	next->prev = NULL;
 	*stack = next;
 }
+/*
+ * nop - The opcode pop removes the top element of the stack
+ * @stack: pointer to   line number
+ * @line_number: number where to pop from
+ * Return: 0
+ */
+void nop(stack_t **stack, unsigned int line_number)
+{
+	(void)stack;
+	(void)line_number;
+}
